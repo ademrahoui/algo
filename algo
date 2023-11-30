@@ -1,0 +1,44 @@
+ALGORITHM Analyser Phrase
+VAR
+  Var Ph1 : STRING
+  nmb: INTEGER
+
+BEGIN
+  ecrire('veuilez me donner votre phrase')
+    lire(Ph1)
+    nbr=Ph1.length
+   ecrire(nbr) 
+
+END
+ALGORITHM 
+VAR
+ var ph : STRING
+
+BEGIN
+    ecrire("donner une phrase ")
+    nbr=0
+    FOR i FROM 1 TO ph.length STEP 1  DO
+        IF (ph[i]==' ') THEN
+        nbr=nbr+1
+    
+        END_IF
+    END_FOR
+    ecrire("votre phrase contient le nombre de de mot"nbr)
+
+END
+
+ALGORITHM Analyser Phrase
+VAR
+    Ph1=STRING
+    nombre_voyelles=INTEGER
+    BEGIN
+    ecrire("donner moi les voyelles de cette phrase")
+    nombre_voyelles=0
+    FOR i FROM 1 TO Ph1.length STEP 1  DO
+        IF (nombre_voyelles[i]==['a','e','i','o','u']) THEN
+    nombre_voyelles=nombre_voyelles+1
+        END_IF
+    END_FOR
+    ecrire("ecrire le nombre de voyelles")
+
+END
